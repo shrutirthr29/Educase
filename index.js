@@ -32,7 +32,7 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 
 //routes import
-import userRouter from "./routes/routes.js"
+import userRouter from "./src/routes/routes.js"
 
 //routes declaration
 app.use('/api',userRouter)
