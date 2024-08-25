@@ -1,4 +1,4 @@
-import db from "../../index.js"
+import db from "../index.js"
 const addSchool = (req, res) => {
     const { name, address, latitude, longitude } = req.body;
 

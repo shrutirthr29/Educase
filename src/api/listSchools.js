@@ -1,4 +1,4 @@
-import db from "../../index.js"
+import db from "../index.js"
 
 // Calculate the distance between two coordinates 
 function calculateDistance(lat1, lon1, lat2, lon2) {
